@@ -1,0 +1,23 @@
+debug: true
+server.port: 8080
+spring:
+  mail:
+    host: smtp.tiscali.it
+    port: 465
+    protocol: smtp
+    username: devtestdevtest828117@tiscali.it
+    password: _DkW3bwVqWVh3vG
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+mail:
+  smtp:
+    starttls:
+      enable: false
+
